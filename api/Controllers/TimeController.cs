@@ -16,7 +16,7 @@ namespace api.Controllers
         public TimeController(ILogger<TimeController> logger)
         {
             _logger = logger;
-            _logger.LogTrace(1, "Time");
+            _logger.LogError(1, "Time");
         }
 
         [HttpGet]
